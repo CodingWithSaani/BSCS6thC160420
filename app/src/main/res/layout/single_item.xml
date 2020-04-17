@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <TextView
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/singleRow_userNameTV"
+        android:text="Dummy Name"
+        android:textStyle="italic"
+        android:textSize="13sp"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/white"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/singleRow_iv"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_camera"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/singleRow_userStatusTV"
+        android:text="Dummy User Status"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_below="@id/singleRow_userNameTV"
+        />
+
+
+
+</RelativeLayout>
